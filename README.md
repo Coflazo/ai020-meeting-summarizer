@@ -32,9 +32,9 @@ AGENTS.md       → Agent brief for Codex
 
 | Level | Approach |
 |-------|----------|
-| **Non-technical** | Open this repo in Claude Code. Use the brief and skills files to direct the AI. Iterate on the prompt and output. Claude builds — you steer. |
-| **Mixed** | Use the brief as your starting point. Modify the output schema, experiment with prompts, and build a simple way to present the results. |
-| **Technical** | Start from scratch using only `brief/` and `skills/` as context. Full creative freedom on architecture and implementation. |
+| **Non-technical** | Open this repo in Claude Code. Point it at the brief. Describe what you want in plain language — the AI writes all the code. You iterate by giving feedback. |
+| **Mixed** | Let the AI generate a first version, then read and modify the code yourself. Adjust the output schema, refine the prompt, improve the UI. |
+| **Technical** | Design the architecture yourself. Use the brief and skills files as context. AI assists, but you drive the implementation. |
 
 ### 2. Read the brief
 
