@@ -21,7 +21,6 @@ Build a tool that takes a council meeting transcript and produces a clear, struc
 ```
 brief/          → Problem statement, sample transcript, expected output
 skills/         → Context files: Dutch gov structure, plain-language guidelines, output schema
-starter/        → A prompt template and a simple HTML page to get going
 CLAUDE.md       → Agent brief for Claude Code
 AGENTS.md       → Agent brief for Codex
 .cursorrules    → Agent brief for Cursor
@@ -33,9 +32,9 @@ AGENTS.md       → Agent brief for Codex
 
 | Level | Approach |
 |-------|----------|
-| **Non-technical** | Open this repo in Claude Code. Use the brief and skills files to direct the AI. Iterate on the prompt and output. |
-| **Mixed** | Start from the prompt template and HTML page in `starter/`. Modify the prompt, adjust the output schema, tweak the UI. |
-| **Technical** | Start from scratch using only `brief/` and `skills/` as context. Full creative freedom. |
+| **Non-technical** | Open this repo in Claude Code. Use the brief and skills files to direct the AI. Iterate on the prompt and output. Claude builds — you steer. |
+| **Mixed** | Use the brief as your starting point. Modify the output schema, experiment with prompts, and build a simple way to present the results. |
+| **Technical** | Start from scratch using only `brief/` and `skills/` as context. Full creative freedom on architecture and implementation. |
 
 ### 2. Read the brief
 
